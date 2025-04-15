@@ -1,0 +1,13 @@
+server:
+  port: 8761  # Port du serveur Eureka
+
+spring:
+  application:
+    name: eureka-server  # Nom du service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # URL du serveur Eureka
+  instance:
+    prefer-ip-address: true  # Afficher l'IP au lieu du nom d'hôte
