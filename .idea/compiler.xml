@@ -20,6 +20,15 @@
         <module name="response-iso-service" />
         <module name="packing-iso-service" />
       </profile>
+      <profile name="Annotation profile for transaction-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="transaction-service" />
+      </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
@@ -27,6 +36,7 @@
       <module name="eureka-service" options="-parameters" />
       <module name="packing-iso-service" options="-parameters" />
       <module name="response-iso-service" options="-parameters" />
+      <module name="transaction-service" options="-parameters" />
     </option>
   </component>
 </project>

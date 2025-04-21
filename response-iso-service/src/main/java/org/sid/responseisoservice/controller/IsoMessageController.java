@@ -11,12 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/response")
 @RequiredArgsConstructor
 public class IsoMessageController {
-
     private final IsoMessageService isoMessageService;
 
     @PostMapping("/save")
     public String saveMessage(@RequestBody String isoMessage) {
         isoMessageService.save(isoMessage);
-        return "Message ISO reçu et enregistré avec succès ✅";
+        return "✅ Message ISO reçu, analysé et stocké avec succès !";
     }
 }
