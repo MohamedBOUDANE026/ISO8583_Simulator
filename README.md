@@ -6,8 +6,9 @@ Ce projet simule un système de traitement de transactions basé sur le protocol
 
 ## 🧱 Architecture des microservices
 
-<img src="![Architecture_PFE .png](../../Downloads/Architecture_PFE%20.png)">
----
+
+---![Architecture_PFE ](https://github.com/user-attachments/assets/42092591-8e5d-4f4d-9938-d7d0c6445b25)
+
 
 ## ⚙️ Microservices inclus
 
