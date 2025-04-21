@@ -56,11 +56,17 @@ Contenu : message brut, code réponse, date de réception
 
 ### 📌 Stack technique
 Java 17+
+
 Spring Boot
+
 Spring Cloud Eureka
+
 Spring Data JPA
+
 FeignClient
+
 MySQL 8
+
 Lombok
 
 
